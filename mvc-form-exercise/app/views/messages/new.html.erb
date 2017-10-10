@@ -1,0 +1,26 @@
+<h1>New Message</h1>
+
+<%= form_for @message, url: messages_path do |f| %>
+
+  <div class="field">
+    <%= f.label :body %>
+    <%= f.text_field :body %>
+  </div>
+
+  <div class="field">
+    <%= f.label :sender %>
+    <%= f.text_field :sender %>
+  </div>
+
+  <div class="field">
+    <%= f.label :email %>
+    <%= f.text_field :email %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+<% end %>
+
+<%= link_to 'Back', messages_path %>

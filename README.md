@@ -6,6 +6,7 @@ This repository contains clone applications for various exercises.
 
 1. Active Record Querying Exercises
   - ar-query-exercise
+  - mvc-form-exercise
 
 # Setup
 
